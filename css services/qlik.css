@@ -1,0 +1,362 @@
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;}
+
+  html
+  {background: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    overflow-x: hidden;}
+
+
+body.modal-open{ overflow: hidden;
+    position: fixed;}
+
+body.viewport-lg{ position: absolute; }
+
+* {
+    box-sizing: inherit;
+}
+
+
+/*****************page****************************/
+@media screen and (max-width: 450px){
+#button{position: relative;
+right:785px;
+top:100px;
+}
+#choose{top:1800px;
+height:1600px;}
+
+#reports{position: relative;
+  top:2000px;
+}
+#interest{height:500px;
+  position: relative;
+  bottom:3500px;
+}
+#footer{height:700px;
+  position: absolute;
+  top:7500px;
+}
+#thepage{height:7500px;}
+#marginchoose{margin-bottom: 70px;}
+#interestedmargin{position: none;
+margin-left: 2.5%;
+margin-right: 2.5%;
+}
+#mainpar{position: none;
+margin-left:2%;
+margin-right:5%;
+margin-bottom: 10%;}
+#heading-section{height:500px;}
+#infopar{position: relative;top:100px;}
+#interestedpar{height:195px;}
+.reportrow{position: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+}
+
+
+.mainheadingpar{position:relative;bottom:40px; margin-left:250px;}
+
+.col-lg-8{margin-left: 100px;
+margin-right: 100px;
+margin-top: 70px;
+display: block;}
+.secondhomepage1{position: absolute;
+top: 50px;
+height: 5900px;
+width: 100%;
+}
+
+
+.heading-section{
+  position: relative;
+  top: 50px;
+height:400px;}
+
+
+
+.mainheading{position: relative;
+bottom: 350px;
+text-align: center;
+padding-left: 6.25%;
+padding-right:6.25%;
+font-style: italic;
+font-weight: bold;
+color: white;
+font-size: 40px;
+text-shadow: 2px 2px 4px black;
+}
+
+
+.image{position: relative;
+  top:0px;
+
+}
+
+
+.mainheadingpar{color: white;
+position: relative;
+bottom: 340px;
+text-align:center;
+padding-left: 6.25%;
+padding-right:6.25%;
+font-size: 25px;
+font-weight: bold;
+font-family: 'Piazzolla', serif;
+text-shadow: 10px 10px 10px black;
+
+color: white;}
+
+
+.infopar{position: absolute;
+top:450px;
+}
+
+
+.p1{
+padding:8%;
+padding-bottom: 3%;}
+
+.p2{padding:8%;
+padding-top: 0%;}
+
+/* why choose us */
+
+.whychooseus{position: absolute;
+top: 1000px;
+background-color: #e8e6df;
+height: 800px;
+width: 100%;}
+
+.homepageheading4{font-family: 'Noto Serif', serif;
+position:relative;
+top: 10px;
+text-align: center;
+color: black;
+padding-top: 5%;}
+
+.homepagehr4{
+  border: solid #ac090a 2px;
+border-top: none;
+border-width: 2px;
+position: relative;
+top: 20px;
+width: 5%;
+align-self: center;}
+
+.fa-chalkboard-teacher{padding-right:3%; }
+.fa-clipboard-check{padding-right:3%;}
+.fa-hands-helping{padding-right:3%;}
+.fa-laptop-code{padding-right:3%; }
+.fa-dollar-sign{padding-right:3%;}
+.fa-calendar-check{padding-right:3%;}
+
+
+.reports{position: absolute;
+top:1800px;
+height:3700px;
+width: 100%;
+background-color: black;}
+
+.reportrow{height:500px;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  margin-top:70px;}
+
+.col-lg-10{align-self: center;
+display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+
+.card{
+border-style:none;
+border-color: black;
+height:500px;
+width:100%;
+box-shadow:5px 5px 5px grey;}
+
+
+
+
+
+
+.card-img{height:500px;
+width:100%;
+}
+
+
+.card-2{background-color: #ac090a;
+position: relative;
+bottom: 500px;
+opacity: 0%;}
+
+
+
+
+
+
+.card-body{opacity:100%;
+position: relative;
+top:150px;
+font-size: 30px;
+font-weight: bold;
+color:black;
+}
+
+
+
+
+
+
+.homepagehr5{
+border: solid #ac090a 2px;
+border-top: none;
+border-width: 2px;
+position: relative;
+top: 20px;
+width: 5%;
+align-self: center;
+margin-bottom: 50px;} */
+
+
+
+
+/* get in touch section */
+
+.interested{position: absolute;
+top:5500px;
+height:300px;}
+
+.btncntct2 {position: relative;
+bottom:60px;
+left:900px;
+  color: black;
+
+  background-color: transparent;
+  background-image: none;
+  border-color: black;
+  border-width: thick;
+  /* margin-left: 20px; */
+  margin-top:2px;
+  margin-bottom: 6px;
+}
+
+.btncntct2:hover {
+  color: black;
+  background-color: #eae7e6;
+  border-color: #ac090a;
+
+
+  text-decoration: none;
+
+}
+
+
+.interestedpar{position: relative;
+
+color: black;
+font-size: 30px;
+font-weight: bold;}
+
+
+/* footer */
+
+
+.footer{position: absolute;
+top:5800px;
+height:310px;
+background-color: black;
+width: 100%;}
+
+
+
+.content{margin-top: 80px;}
+
+
+
+.contact-footer{color: red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.linkshead{color: red;
+
+}
+
+.logohead{margin-left: 30px;}
+
+
+.fa-phone-volume{padding-right:1%;
+transform:
+rotate(330deg);
+color: white;
+margin-bottom: 40px;}
+
+
+
+.fa-envelope{color: white;
+padding-right:1%;
+}
+
+
+.sql1{padding-top: 1%;
+color: white;
+text-align: center;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+.sql2{color: white;
+text-align: center;
+
+}
+
+
+.sql2:hover{color:grey;
+text-decoration:none;}
+
+
+.sql1:hover{color:grey;
+text-decoration:none;}
+
+.tablesql{margin-left: 140px;}
+
+
+.social{position: relative;
+  top: 10px;
+left:120px;
+size:20%;
+margin-bottom: 40px;}
+
+
+
+.fa-instagram{color: white;
+}
+
+.fa-youtube{color: white;
+  margin-left: 2%;
+  margin-right: 2%}
+
+.fa-pinterest-square{color: white;}
+
+
+.fa-2x:hover{color: grey;
+text-decoration: none;}

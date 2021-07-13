@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:wght@100&family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+  <!-- css style sheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/navbarstyles.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- required meta tags -->
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <!-- awesome fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<link rel="icon" type="image/png" href="./image/favicon.png"/>
+<title>Home</title>
+  <!--JavaScript-->
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+
+  <!-- emailfunctionality -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<!-- script for dropdownhover -->
+<style>
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+    .dropdown-menu{
+        margin-top: 0;
+    }
+</style>
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+            dropdownMenu.parent().toggleClass("open");
+        }
+    });
+});
+</script>
+
+
+</head>
+<body>
+
+<section>
+  <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+  <button style="background-color:#ac090a; border: 2px solid grey;" class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a href="#home"><img id="logo"class="logo"  src="./image/logo.png" alt=""></a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul id="navbar-nav"class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li id="navitemtoggle"class="nav-item">
+        <a id="nav-link" class="nav-link"  href="#">Home</a>
+      </li>
+
+      <li id="navitemtoggle" class="nav-item dropdown">
+        <a id="nav-link" class="nav-link " href="./html/service.html" id="navbarDropdownMenuLink"  data-hover="dropdown"  aria-expanded="false">
+          Services</a>
+
+
+      <div class="dropdown-menu " id="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    <div class="container container1">
+          <div class="row " id="drop">
+
+            <div class="col-lg-4 col-sm-12 ">
+
+                          <!-- <div class="dropdown-divider "></div> -->
+                          <h2 style="font-size:15px; color:#ac090a; font-weight:bold;"class="dropdown-header">EXPERTISE</h2>
+
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/analyticsconsulting.html">Analytics Consulting
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/biandvisualisation.html">BI & Visualisation
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/bigdata.html">Big Data
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/dataanalytics.html">Data Analytics
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/datamanagement.html">Data Engineering
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/datalake.html">Data Lake
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/datamigration.html">Data Migration
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/datascience.html">Data Science
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/datawarehouse.html">Data Warehouse
+                          </a>
+
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+
+                          <!-- <div class="dropdown-divider "></div> -->
+                          <h2 style="font-size:15px;  color:#ac090a; font-weight:bold;"class="dropdown-header ">TECHNOLOGY</h2>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/apacheairflow.html">Apache Airflow
+
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/gcp.html">Google Cloud Platform
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/googledatastudio.html">Google Data Studio
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/matillion.html">Matillion
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/azure.html">Microsoft Azure
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/bi services.html">Business Intelligence
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/powerbi.html">Microsoft Power BI
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/qlik.html">Qlik
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/tableau.html">Tableau
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/talend.html">Talend
+
+                          </a>
+
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+
+                          <!-- <div class="dropdown-divider "></div> -->
+                          <h2 style="font-size:15px;  color:#ac090a; font-weight:bold;"class="dropdown-header">OPERATIONS</h2>
+
+                          <a style="font-weight:bold;" id="dditems" class="dropdown-item" href="./html services/engagementmodels.html">Engagement Models
+
+                          </a>
+                          <a style="font-weight:bold;  " id="dditems"class="dropdown-item" href="./html services/globaldelivery.html">Global Delivery Model
+
+
+                          </a>
+                          <a style="font-weight:bold;"id="dditems"class="dropdown-item" href="./html services/productengineering.html">Product Engineering
+
+                          </a>
+            </div>
+
+
+                      </div>  <!-- row end -->
+        </div>
+
+
+
+
+    </div>  <!-- dropdownmenuend -->
+  </li>
+
+      <li id="navitemtoggle"class="nav-item active">
+        <a  id="nav-link"class="nav-link" href="./html/aboutus.html">About Us </a>
+      </li>
+      <li id="navitemtoggle"class="nav-item">
+        <a  id="nav-link"class="nav-link" href="./html/careers.html">Careers</a>
+      </li>
+       <li><a href="#cntct"><button id="btncntct" class="  btncntct"type="btncntct" name="button"><strong>Get In Touch</strong></button></a></li>
+
+    </ul>
+
+  </div>
+</nav>
+
+  </section>
+  <!-- firstpage -->
+
+  <section class="homepage " id="home">
+
+
+      <div class="maincontent" class="lax" >
+        <h1 class="mainheading ">ALLY-ELITE:</h1>
+        <h1 class="secondmainheading ">GLOBAL SOLUTIONS</h1>
+        <h3 class="thirdmainheading "> Specialized Consulting</h3>
+
+
+
+      </div>
+
+  <div class="homevideo" id="homevideo">
+
+    <video  id="vid"class="homevideos"  autoplay muted><script>
+        document.getElementById('vid').play();
+    </script>Your browser doesn't support vedio tag
+    <source src="./image/video.mp4" type="video/mp4">
+    </video>
+
+         <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+ </div>
+
+
+
+  </div>
+  </section >
+
+  <section class="secondpage" id="secondpage1">
+
+    <h2 class="homepageheading1 font">Elite Clientele</h2>
+    <hr class="homepagehr1">
+
+
+
+
+  <div class="row client" >
+
+    <div class="col-lg-6 col-sm-12 col d-flex justify-content-center">
+      <img  style="height:150px;width:200px; opacity:70%" src="./image/arricor.png" alt="">
+    </div>
+
+    <div class="col-lg-6 col-sm-12 col d-flex justify-content-center">
+      <img style="height:150px;width:200px; opacity:70%"src="./image/skillcraft.png" alt="">
+    </div>
+
+
+  </div>
+
+
+  </section>
+
+  <section id="thirdpage" class="thirdpage">
+    <h2 class="homepageheading2 font">Our Core Competencies</h2>
+        <hr class="homepagehr2">
+
+
+    <div class="container core" >
+
+    <div class=" row " id=" row">
+      <div class="coredesc col-lg-6  justify-content-center"">
+          <h2 class="corehead ">Analytics</h2>
+          <p class="corepar font">While data has the potential to become one of an enterprise’s most valuable resources unfortunately, many enterprise's are simply drowning in this data. They face challenges managing, integrating, and securing such a large volume and variety of data, and aren’t able to leverage it effectively to their advantage. It is a challenge for enterprises to extract accurate and timely insights from data residing in different formats and in siloed processes. To achieve the most out of the information that you have, you need to reimagine & explore the possibilities that you can unlock. ALLY-ELITE solutions help enterprises develop conclusive fact-based strategies, empowering users and delivering a competitive edge.Our range of analytics services helps uncover historical insights by streamlining data from multiple source systems within enterprises and organizes the insights in interactive and flexible visualization that empowers users to derive intelligence.</p>
+
+      </div>
+      <div  class="col-lg-6">
+          <img id="coreimage"  class="coreimage1"src="./image/analytics.png" alt="analytics">
+      </div>
+      </div>
+
+
+      <div class="row " id="row">
+        <div class="coredesc col-lg-6  justify-content-center"">
+            <h2 class="corehead">Business Performance Management</h2>
+            <p class="corepar font">Monitor performance and react instantly to issues as they arise with the alignment of your organisation's objectives, strategy, planning, forecasting, performance metrics and data systems in a real-time view with ALLY-ELITE. We help companies with strategy development, goal alignment, operations planning, monitoring as well as testing & adaptation for a thorough analysis of your business performance. Our EPM services and solutions make a big difference in our clients’ strategy, profitability, cost management, business planning, financial consolidation and spend and supply chain.
+    </p>
+
+        </div>
+        <div  class="col-lg-6 col d-flex justify-content-center">
+            <img id="coreimage" class="coreimage2"src="./image/EPM.png" alt="analytics">
+        </div>
+        </div>
+
+
+
+        <div class="row " id="row">
+          <div class="coredesc col-lg-6 justify-content-center">
+              <h2 class="corehead ">Data Engineering</h2>
+              <p class="corepar font">Delivering data management framework that is aligned with the organization's tactical and strategic needs is crucial for businesses today to succeed with their analytics vision.We deliver robust, scalable and secure on-premise, cloud or hybrid data management solutions aligned with your business objectives. Our services encompass the entire spectrum of data and its processing for business decision-making including. We offer Data Warehouse,Big Data,Data Lake.We provide organizations with cutting-edge data management solutions by taking into account their existing business, data and technology stack such as their data architecture, digital maturity and hosting environment.
+    </p>
+
+          </div>
+          <div  class="col-lg-6 col d-flex justify-content-center">
+              <img id="coreimage" class="coreimage3"src="./image/DE.png" alt="analytics">
+          </div>
+          </div>
+
+
+          <div class="row" id="row">
+            <div class="coredesc col-lg-6  justify-content-center">
+                <h2 class="corehead ">Offshore Development Centre</h2>
+                <p class="corepar font">Establishing your new team all starts with choosing the best offshore development partner.With a mission to enable enterprises to stay on track with their digital transformation journey, our Offshore Development Centre (ODC) offers dedicated as well as flexible teams & infrastructure. We are helping organisations restore this focus on what they do the best, while our team works as an extended arm to tackle the rest. </p>
+
+
+            </div>
+            <div  class="col-lg-6 col d-flex justify-content-center">
+                <img id="coreimage"  class="coreimage4"src="./image/ODC.jpg" alt="analytics">
+            </div>
+          </div>
+
+
+          </div>
+  </section>
+  <section id="testimonials"class="fourthpage ">
+    <h2 class="homepageheading3">What Our Clients Have To Say About Us
+  </h2>
+    <hr class="homepagehr3">
+
+
+  <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel"  data-pause="hover" keyboard="true" >
+    <ol id="carousel-indicators"class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li> -->
+    </ol>
+    <div class="carousel-inner">
+
+
+
+  <div id="carousel-item"class="carousel-item active" data-inteval="200">
+    <div>
+            <img id="cosmos" class="cosmos d-block"src="./image/skillcrafttesti.png" alt="second">
+          </div>
+
+  </div>
+
+
+  <div id="carousel-item"class="carousel-item " data-inteval="200">
+    <div>
+            <img id="cosmos" class="cosmos d-block"src="./image/arricortesti.png" alt="first">
+
+  </div>
+
+  </div>
+  <a class="icon carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon1" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="icon carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon1" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </section>
+
+
+
+  <!---------------------------- contact ----------------------------->
+  <section class="trick" id="cntct">
+
+  </section>
+
+
+
+
+  <section id="cntct" name="contact" class=" container5 contact">
+
+
+    <div class="row">
+
+      <div class=" col-lg-6">
+
+
+     <div class="contactinfo1">
+        <h3 class="cntcthead">CONTACT US</h3>
+        <h6 ><a class="sql3"href="mailto:contact@ally-elite.com?subject=Inquiry"> <i class="far fa-envelope"></i>contact@ally-elite.com</a></h6>
+        <h6 ><a class="sql3"href="tel:+1 (913) 638-4519"><i class="fas fa-phone-volume" ></i>+1 (913) 638-4519</a></h6>
+  </div>
+
+    </div>
+    <!---------------------------- form ----------------------------->
+     <div class=" form1 container3 col-lg-6">
+       <form action="javascript:sendMail();" method="post">
+         <div class="form-row">
+           <div class="col " >
+             <input type="text"class="form-control firstpart" placeholder="First Name" id="FirstName">
+           </div>
+           <div class="col">
+             <input type="text" class="form-control firstpart" placeholder="Last Name" id="LastName">
+           </div>
+         </div>
+
+
+           <div>
+          <input type="text" class="form-control secondpart"  cols="40" rows="1" placeholder="Email"  id="EmailId">
+         </div>
+         <div class="Message">
+
+         <textarea name="your-message" cols="40" rows="3" class="form-control wpcf7-form-control wpcf7-textarea secondpart" aria-invalid="false" placeholder="Message" id="Message" style="margin-top: 30px; height: 107px;"></textarea>
+         </div>
+
+
+         <input id="buttonsubmit" type="button" class="btn btn-outline-light" value="Send Email" onclick="sendEmail()" />
+
+       </form>
+    </div alt="end of column">
+  </div  alt="endofrow">
+  </section>
+  </section>
+
+  </section>
+
+  <!-- footer -->
+
+
+
+  <footer id="footer" class="footer ">
+  <div class="row content">
+
+  <div class="col-lg-3 col-sm-6 " >
+    <img class="logohead"src="./image/footerlogo.png" alt="">
+
+    <div class="social">
+      <a href="#" class="fab fa-instagram fa-2x" aria-hidden="true"></a>
+      <a href="https://www.youtube.com/channel/UCfgSVscCiSXN0iaVfCEpAoQ?view_as=subscriber" class="fab fa-youtube fa-2x" aria-hidden="true"></a>
+      <a href="#" class="fab fa-pinterest-square fa-2x" aria-hidden="true"></a>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3 col-sm-6 ">
+    <h6 class="contact-footer">Contact Us</h6>
+    <h6 ><a class="sql1"href="mailto:contact@ally-elite.com?subject=Inquiry"> <i class="far fa-envelope"></i>contact@ally-elite.com</a></h6>
+    <h6 ><a class="sql1"href="tel:+1 (913) 638-4519"><i class="fas fa-phone-volume" ></i>+1 (913) 638-4519</a></h6>
+  </div>
+
+
+
+  <div class="col-lg-3 col-sm-6">
+  <table class="tablesql" >
+    <thead >
+      <th class="linkshead" >Information</th>
+
+    </thead>
+
+    <tr>
+       <td class="sql2"><a href="./html/aboutus.html"class="sql2">About Us</a></td>
+    </tr>
+
+    <tr>
+    <td class="sql2"><a href="./html/careers.html" class="sql2">Careers</a></td>
+    </tr>
+
+    <tr>
+    <td class="sql2">  <a href="#secondpage" class="sql2">Our Clients</a></td>
+    <td></td>
+    </tr>
+
+    <tr>
+      <td class="sql2"><a href="#testimonials" class="sql2">Testimonials</a></td>
+      <td></td>
+    </tr>
+  </table>
+  </div>
+
+
+
+  <div class="col-lg-3 col-sm-6 ">
+  </table >
+  <table class="tablesql">
+    <thead >
+      <th class="linkshead" >Helpful Links</th>
+    </thead>
+    <tr>
+      <td class="sql2"><a href="./html/service.html" class="sql2">Services</a></td>
+    </tr>
+    <tr>
+      <td class="sql2"><a href="#" class="sql2">Home</a></td>
+    </tr>
+  </table>
+  </div>
+
+
+   </div>  <!--rowend -->
+
+  </footer>
+
+<link type="text/javascript" href="./index.js">
+</body>
+
+</html>

@@ -1,0 +1,649 @@
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+
+  html
+  {background: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; }
+
+
+      body.modal-open{ overflow: hidden;
+          position: fixed;}
+
+      body.viewport-lg{ position: absolute; }
+
+      * {
+          box-sizing: inherit;
+      }
+
+
+
+      @media screen and (max-width: 450px){
+       .maincontent{position: relative;
+        bottom: 90px;
+        font-size: 80%;
+
+      }
+      .trick{position: absolute;
+      top:4900px;}
+
+      .font{font-size: 80%;}
+
+       #home{position:absolute;
+         top:50px;
+         height:300px;}
+
+      #homevideo{position: absolute;
+        top:50px;
+         width: 100%;
+         height: 300px;
+         object-fit: cover;
+         overflow: hidden;}
+      #secondpage1{position: absolute;
+      top:400px;
+      height: 500px;
+      background-color: black;
+    overflow-x: hidden;
+  overflow-y: hidden;}
+
+#thirdpage{
+  position: absolute;
+top: 900px;
+overflow-x: hidden;
+    height: 3100px;
+    background-color: black;
+
+}
+
+    #coreimage{width:80%;
+    height: 90%}
+
+    #testimonials{position: absolute;
+    top: 4000px;
+        height: 900px;
+        width: 100%;
+        overflow-x: hidden;
+      background-color: black;}
+      #carousel-item{position: relative;
+      top:100px;}
+      #cosmos{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      height:400px;
+      width:80%;
+  }
+
+    #carousel-indicators{position: relative;
+    top:600px;}
+
+    .carousel-control-next-icon1 {display: none;}
+    .carousel-control-prev-icon1{display: none;}
+    #cntct{position:absolute;
+    top: 4900px;
+    height: 600px;
+  overflow-x: hidden;}
+    .cosmos{position: relative;
+    bottom:70px;}
+
+    #FirstName{margin-left: 15px;
+    }
+    #LastName{margin-left: 15px;
+    }
+    #EmailId{margin-left: 15px;}
+    #Message{margin-left: 15px;}
+    #footer{position:absolute;
+    top: 5500px;
+    height: 700px;
+  overflow-x: hidden;}
+
+    #buttonsubmit{position: none;
+      margin-left:120px; }
+
+      .homepageheading1{font-size: 80%;}
+        .homepageheading2{font-size: 80%;}
+          .homepageheading3{font-size: 80%;}
+
+
+}
+
+
+
+/**********************************************homepage**************/
+
+
+
+        .homepage{position: absolute;
+          top: 50px;
+        height: 200px;
+            width: 100%;
+            padding-bottom:56.25%;
+            overflow:hidden;
+       min-height: 500px;
+
+        }
+
+
+
+
+        .homevideo{position: absolute;
+          top: 50px;
+          left:0px;
+         z-index: 0;
+        background-color: black;
+        width: 100%;
+         height: 600px;
+         object-fit: cover;
+         overflow: hidden;
+        }
+
+
+
+        .mainheading{position: relative;
+          left:6.25%;
+        top:200px;
+        z-index: 1;
+        font-size: 437.5%;
+        color:#a8a59d; }
+
+        .secondmainheading{position: relative;
+            left:6.25%;
+        top:200px;
+        z-index: 1;
+        font-size: 250%;
+        color:#a8a59d;
+        }
+
+
+        .thirdmainheading{position: relative;
+            left:6.25%;
+        top:200px;
+        z-index: 1;
+        font-size: 187.5%;
+        color:#a8a59d;}
+
+
+
+
+/**************clients**********************/
+
+
+
+.secondpage{position: absolute;
+  top: 650px;
+    height: 400px;
+    width: 100%;
+  background-color: black;
+
+}
+
+
+
+.homepageheading1{font-family: 'Noto Serif', serif;
+position:relative;
+top: 60px;
+text-align: center;
+font-size: 40px;
+color: #a8a59d;}
+
+.homepagehr1{
+  border: solid #ac090a 2px;
+border-top: none;
+border-width: 2px;
+position: relative;
+top: 70px;
+width: 10%;
+align-self: center;}
+
+.client{
+  margin-top: 100px;
+}
+
+
+
+/***********thirdpage***********/
+.thirdpage{position: absolute;
+  top: 1050px;
+    height: 2100px;
+    width: 100%;
+  background-color: black;}
+
+  .homepageheading2{font-family: 'Noto Serif', serif;
+  position:relative;
+  top: 100px;
+  text-align: center;
+  font-size: 40px;
+  color: #a8a59d;}
+
+  .homepagehr2{
+    border: solid #ac090a 2px;
+  border-top: none;
+  border-width: 2px;
+  position: relative;
+  top: 120px;
+  width: 10%;
+  align-self: center;
+}
+
+
+.core{margin-top:200px;}
+
+
+  .coreimage1{width: 350px;
+    height: 400px;
+  padding:4%;
+  align-self: center;
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 9.25%;
+  z-index: 1;
+border-radius: 15px;}
+
+
+  .coreimage2{width: 350px;
+    height: 350px;
+  padding:4%;
+  align-self: center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left:9.25%;
+  z-index: 1;}
+
+
+  .coreimage3{width:350px;
+    height: 350px;
+  padding:4%;
+  align-self: center;
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 9.25%;
+  z-index: 1;}
+
+
+
+  .coreimage4{width: 350px;
+    height: 300px;
+  padding:4%;
+  align-self: center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;  position: relative;
+  left: 9.25%;
+  z-index: 1;}
+
+
+.row{margin-bottom: 100px;}
+
+
+.corehead{color: #ac090a;}
+
+.corepar{color: white;}
+
+
+/* fourthpage */
+
+.fourthpage{position: absolute;
+  top: 3150px;
+    height: 900px;
+    width: 100%;
+  background-color: black;}
+
+  .homepageheading3{font-family: 'Noto Serif', serif;
+  position:relative;
+  top: 100px;
+  text-align: center;
+  font-size:35px;
+  color: #a8a59d;}
+
+  .homepagehr3{
+    border: solid #ac090a 2px;
+  border-top: none;
+  border-width: 2px;
+  position: relative;
+  top: 120px;
+  width: 10%;
+  align-self: center;
+}
+
+
+
+.cosmos{
+align-self: center;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+margin-top:120px;
+}
+
+.carousel-indicators {
+            position: relative;
+            right: 0;
+            top: 600px;
+            left: 0px;
+            z-index: 15;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 0;
+            list-style: none;
+            align-items: center;
+          }
+
+          .carousel-indicators li {
+            position: relative;
+            -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            width: 30px;
+            height: 3px;
+            margin-right: 3px;
+            margin-left: 3px;
+            text-indent: -999px;
+            background-color: rgba(255, 255, 255, 0.5);
+          }
+
+          .carousel-indicators li::before {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            content: "";
+          }
+
+          .carousel-indicators li::after {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            content: "";
+          }
+
+
+          .carousel-indicators .active {
+            background-color: #fff;
+          }
+
+
+          .carousel-control-next-icon1 .carousel-control-prev-icon1 {
+
+
+          outline: white;
+          background-size: 100%, 100%;
+          border-radius: 50%;
+          border: 1px solid #ac090a;
+          background-image: none;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: transparent no-repeat center center;
+
+        }
+        .carousel-control-next-icon1:after
+        { margin-right: 200px;
+          content: '>';
+          font-size: 55px;
+          color: white;
+          align-self: auto;
+        }
+
+        .carousel-control-prev-icon1:after {
+margin-left: 200px;
+          content: '<';
+          font-size: 55px;
+          color: white;
+          align-self: auto;}
+
+
+
+          /*********************contact***********************************/
+
+
+
+
+           /* contact */
+
+          .trick{position: absolute;
+          top:3900px;}
+
+
+          .trickhidden{display:none;
+          position: absolute;
+          top:4050px;}
+          .contact{position: absolute;
+            top: 4050px;
+              height: 500px;
+              width: 100%;
+            background-color: black;}
+
+            /*********************contact***********************************/
+
+
+
+
+               .contactinfo1{text-align:center;
+            margin-top: 10%;
+            display: block;
+              margin-left: auto;
+              margin-right: auto;
+            color: white;
+
+          }
+
+
+
+
+            .sql3{padding-top: 1%;
+              position: relative;
+              top: 10px;
+              display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+              color: white;
+
+            }
+
+            .sql3:hover{color: grey;
+            text-decoration: none;}
+
+
+            .cntcthead{
+            font-size:40px;
+            color: #ac090a;
+
+            }
+
+
+
+
+
+
+            /*************form*************/
+
+
+            .container3 {
+
+               position: relative;
+              right: 15px;}
+
+            .form1{background-color: black;
+
+
+            }
+
+
+
+
+          .form-control{background-color: black;
+            margin-top: 30px;
+          color: white;}
+
+
+
+
+
+
+          #FirstName{background-color:transparent;
+          color:white;}
+          #LastName{background-color:transparent;
+          color:white;}
+          #EmailId{background-color:transparent;
+          color:white;}
+          #Message{background-color:transparent;
+          color:white;}
+
+
+            .firstpart{width:80%;
+              display: block;
+                margin-left: auto;
+                margin-right: auto;
+              }
+
+            .secondpart{width:90%;
+              display: block;
+                margin-left: auto;
+                margin-right: auto;}
+
+            .message{width:90%;
+              display: block;
+                margin-left: auto;
+                margin-right: auto;}
+
+
+             .btn-outline-light{margin-top: 60px;
+              margin-left:200px;
+            width: 40%;
+            }
+            .btn-outline-light:hover{
+            font-weight: bold;
+            }
+
+
+
+
+
+
+
+
+
+          /***********footer***************/
+          /*********************footer****************************************/
+
+
+
+          .footer{position: absolute;
+          top:4550px;
+          height:310px;
+          background-color: black;
+          width: 100%;}
+
+
+          .content{margin-top: 80px;}
+
+
+
+          .contact-footer{color: red;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+
+          .linkshead{color: red;
+
+          }
+
+
+          .logohead{margin-left: 30px;}
+
+
+          .fa-phone-volume{padding-right:1%;
+          transform:
+          rotate(330deg);
+          color: white;
+          margin-bottom: 40px;}
+
+
+
+          .fa-envelope{color: white;
+          padding-right:1%;
+          }
+
+
+          .sql1{padding-top: 1%;
+          color: white;
+          text-align: center;
+          display:block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+
+
+
+          .sql2{color: white;
+          text-align: center;
+
+          }
+
+
+          .sql2:hover{color:grey;
+          text-decoration:none;}
+
+
+          .sql1:hover{color:grey;
+          text-decoration:none;}
+
+          .tablesql{margin-left: 140px;}
+
+
+          .social{position: relative;
+            top: 10px;
+          left:120px;
+          size:20%;
+          margin-bottom: 40px;}
+
+
+
+          .fa-instagram{color: white;
+          }
+
+          .fa-youtube{color: white;
+            margin-left: 2%;
+            margin-right: 2%}
+
+          .fa-pinterest-square{color: white;}
+
+
+          .fa-2x:hover{color: grey;
+          text-decoration: none;}

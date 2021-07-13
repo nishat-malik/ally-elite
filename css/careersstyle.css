@@ -1,0 +1,350 @@
+body {
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;}
+
+  html
+  {background: no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    overflow-x: hidden;}
+
+
+body.modal-open{ overflow: hidden;
+    position: fixed;}
+
+body.viewport-lg{ position: absolute; }
+
+* {
+    box-sizing: inherit;
+}
+
+
+
+/* firstpage */
+
+
+
+
+
+
+
+@media screen and (max-width: 450px){
+
+.trick{
+  position:absolute;
+top:3000px;}
+
+#secondhomep1{position: absolute;
+  height:1200px;
+overflow-x: hidden;}
+
+#buttonlearn{position: relative;
+  top:100px;
+left:80px;}
+
+
+#secondhomep2{
+    position: absolute;
+    top:1250px;
+  height:2000px;
+overflow-x: hidden;}
+#reasonsimage{height: 3000px;
+  position: relative;
+  top:0px;
+}
+
+#reasonspar{position: relative;
+  top:100px;
+}
+#benefitsdiv{position: absolute;
+  top:1450px;
+overflow-x: hidden;}
+#recruitmentp{position: absolute;
+  top:3250px;
+height:1300px;
+overflow-x: hidden;}
+#jobs{top:4550px;}
+#footer{top:5150px;
+height:700px;
+overflow-x: hidden;
+}
+
+
+}
+
+
+
+
+
+.container-fluid{
+background-color: black;
+box-sizing: border-box;
+margin-left: 0;
+padding-left: 0;
+padding-right: 0;
+width: 100%;}
+
+
+.homepageheading1{font-family: 'Noto Serif', serif;
+position:relative;
+top: 120px;
+text-align: center;
+color: black;}
+
+.homepagehr1{
+  border: solid #ac090a 2px;
+border-top: none;
+border-width: 2px;
+position: relative;
+top: 130px;
+width: 5%;
+align-self: center;}
+
+ .secondhomepage1{position: absolute;
+ top: 50px;
+background-color: #e8e6df;
+height: 700px;
+width: 100%;
+box-shadow: 10px 10px 5px 10px  grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.aboutuspar{background-color: none;
+  font-weight: bolder;
+  color: black;
+padding:5%;
+position: relative;
+top:100px ;
+align-self: center;
+margin-left: 12.25%;
+margin-right: 12.25%;
+font-family: 'Slabo 27px', serif;
+line-height: 35px;
+padding:6%;
+text-align: justify;
+}
+
+
+
+
+.btnlearn {position: relative;
+  top: 50px;
+  left:570px;
+  align-self: center;
+  color: white;
+
+  background-color: black;
+  background-image: none;
+  border-color: grey;
+  border-width: thick;
+  margin-left: 20px;
+  margin-top:2px;
+  margin-bottom:0;
+}
+
+.btnlearn:hover {
+  color: black;
+  background-color: #eae7e6;
+  border-color: #ac090a;
+text-decoration: none;
+
+}
+
+
+
+
+/**************reasons**************/
+
+.secondhomepage2{position: absolute;
+top: 750px;
+height: 1200px;
+background-color: black;
+}
+
+
+.reasons{
+position: absolute;
+top:10px;
+background-color: none;
+font-weight: bolder;
+color: white;
+padding:5%;
+position: relative;
+bottom: 1200px;
+text-align: center;
+font-family: 'Slabo 27px', serif;
+line-height: 35px;
+font-weight: bold;
+font-size: 25px;
+}
+
+
+
+
+.benefits{position:relative;
+}
+
+
+.card{margin-top: 20px;
+  padding: 4%;
+  box-shadow: 5px 5px 2px grey;
+}
+
+
+.card:hover{box-shadow: 10px 10px 5px  grey;}
+
+
+/*********recruit**************/
+.recruitment{position: absolute;
+top:1950px;
+height:500px;
+width: 100%;
+background-color: #e8e6df; }
+
+/**********************jobs******************/
+.trick{position: absolute;
+top:2300px;}
+
+
+.trickhidden{display:none;
+position: absolute;
+top:4200px;}
+
+.job-openings{position: absolute;
+top: 2450px;
+height:400px;
+width: 100%;
+background-color:white ;
+
+}
+
+
+
+
+.jobhunt{position: relative;
+top:300px;
+left: -40px;}
+
+
+.rechead{font-weight: bold;
+font-family: 'Noto Serif', serif;
+position: relative;
+top: 50px;
+text-align: center;}
+
+
+
+.icons{
+position: relative;
+top:150px;
+}
+
+
+
+
+
+/* footer */
+
+
+.footer{position: absolute;
+top:2850px;
+height:310px;
+background-color: black;
+width: 100%;}
+
+.logohead{margin-left: 30px;}
+
+
+.content{margin-top: 80px;}
+
+
+
+.contact-footer{color: red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.linkshead{color: red;
+
+}
+
+
+
+.fa-phone-volume{padding-right:1%;
+transform:
+rotate(330deg);
+color: white;
+margin-bottom: 40px;}
+
+
+
+.fa-envelope{color: white;
+padding-right:1%;
+}
+
+
+.sql1{padding-top: 1%;
+color: white;
+text-align: center;
+display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+.sql2{color: white;
+text-align: center;
+
+}
+
+
+.sql2:hover{color:grey;
+text-decoration:none;}
+
+
+.sql1:hover{color:grey;
+text-decoration:none;}
+
+.tablesql{margin-left: 140px;}
+
+
+.social{position: relative;
+  top: 10px;
+left:120px;
+size:20%;
+margin-bottom: 40px;}
+
+
+
+.fa-instagram{color: white;
+}
+
+.fa-youtube{color: white;
+  margin-left: 2%;
+  margin-right: 2%}
+
+.fa-pinterest-square{color: white;}
+
+
+.fa-2x:hover{color: grey;
+text-decoration: none;}
